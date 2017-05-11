@@ -1,0 +1,437 @@
+<!doctype html>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>news-compare</title>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="style.css">
+
+<!--javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!--html-->
+
+<div class="col-lg-3"></div>
+
+<div class="col-lg-6">
+
+<h1>If You Don't Know All The Answers To This Quiz Then You Probably Don't Read The News</h1></br>
+
+<h2 id="verdict">
+<div class="question">
+  <h2>What are the Republicans Calling the Replacement for Obamacare?</h2>
+  <form>
+  <table id="q1">
+	  <tr>
+			<td><button type="button" class="wrong" onclick="check(false, 'q1')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">The American Care Act</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q1')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">The Affordable Health Care Act</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="right" onclick="check(true,'q1')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">The American Health Care Act</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q1')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">The Affordable Care Act</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>What's Kellyanne Conway's Role in the White House?</h2>
+  <form>
+  <table id="q2">
+	  <tr>
+			<td><button type="button" class="right" onclick="check(true, 'q2')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Counselor to the President</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q2')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Secretary of Agriculture</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q2')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Cabinet Chairman</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q2')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Assistant to the President</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Which Country Voted to Expand their President's Powers?</h2>
+  <form>
+  <table id="q3">
+	  <tr>
+			<td><button type="button" class="wrong" onclick="check(false, 'q3')"> 
+				<div>
+					<img src="assets/pics/china_flag.jpg"/>
+					<p class="text">China</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="right" onclick="check(true,'q3')"> 
+				<div>
+					<img src="assets/pics/turkey_flag.jpg"/>
+					<p class="text">Turkey</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q3')"> 
+				<div>
+					<img src="assets/pics/isreal_flag.jpg"/>
+					<p class="text">Isreal</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q3')"> 
+				<div>
+					<img src="assets/pics/russia_flag.jpg"/>
+					<p class="text">Russia</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Which Bomb did the US Drop on Afghanistan?</h2>
+  <form>
+  <table id="q4">
+	  <tr>
+			<td><button type="button" class="right" onclick="check(true, 'q4')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">MOAB</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q4')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">THAAD</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q4')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Mark17</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q4')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">BOMARC</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Who Recently Compared Schools to Phone Carriers?</h2>
+  <form>
+  <table id="q5">
+	  <tr>
+			<td><button type="button" class="wrong" onclick="check(false, 'q5')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Kelleyanne Conway</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q5')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Rince Priebus</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q5')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Cory Booker</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="right" onclick="check(true,'q5')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Betsy DeVos</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>What is the Capital of North Korea?</h2>
+  <form>
+  <table id="q6">
+	  <tr>
+			<td><button type="button" class="right" onclick="check(true, 'q6')"> 
+				<div>
+					<img src="assets/pics/nkorea_flag.jpg"/>
+					<p class="text">Pyongyang</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q6')"> 
+				<div>
+					<img src="assets/pics/nkorea_flag.jpg"/>
+					<p class="text">Seoul</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q6')"> 
+				<div>
+					<img src="assets/pics/nkorea_flag.jpg"/>
+								<p class="text">Dandong</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q6')"> 
+				<div>
+					<img src="assets/pics/nkorea_flag.jpg"/>
+					<p class="text">Guangzhou</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Which of These is a Senator from New York?</h2>
+  <form>
+  <table id="q7">
+	  <tr>
+			<td><button type="button" class="wrong" onclick="check(false, 'q7')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Van Jones</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="right" onclick="check(true,'q7')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Kirsten Gillibrand</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q7')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Mitch McConnell</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q7')"> 
+				<div>
+					<img src="assets/pics/flag.jpg"/>
+					<p class="text">Dianne Feinstein</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Which Country is NOT Part of President Trump's Travel Ban?</h2>
+  <form>
+  <table id="q8">
+	  <tr>
+			<td><button type="button" class="right" onclick="check(true, 'q8')"> 
+				<div>
+					<img src="assets/pics/jordan_flag.jpg"/>
+					<p class="text">Jordan</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q8')"> 
+				<div>
+					<img src="assets/pics/yemen_flag.jpg"/>
+					<p class="text">Yemen</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q8')"> 
+				<div>
+					<img src="assets/pics/syria_flag.jpg"/>
+					<p class="text">Syria</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q8')"> 
+				<div>
+					<img src="assets/pics/sudan_flag.jpg"/>
+					<p class="text">Sudan</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Which Region is Purging Gay Citizens?</h2>
+  <form>
+  <table id="q9">
+	  <tr>
+			<td><button type="button" class="wrong" onclick="check(false, 'q9')"> 
+				<div>
+					<img src="assets/pics/china_flag.jpg"/>
+								<p class="text">Manchuria</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="wrong" onclick="check(false,'q9')"> 
+				<div>
+					<img src="assets/pics/isreal_flag.jpg"/>
+					<p class="text">Gaza</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="right" onclick="check(true,'q9')"> 
+				<div>
+					<img src="assets/pics/russia_flag.jpg"/>
+					<p class="text">Chechnya</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q9')"> 
+				<div>
+					<img src="assets/pics/venezuela_flag.jpg"/>
+					<p class="text">Guayana</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+
+<div class="question">
+  <h2>Which Country doesn't Censor Wikipedia?</h2>
+  <form>
+  <table id="q10">
+	  <tr>
+			<td><button type="button" class="wrong" onclick="check(false, 'q10')"> 
+				<div>
+					<img src="assets/pics/turkey_flag.jpg"/>
+					<p class="text">Turkey</p>
+				</div>
+			</button></td>
+			<td><button type="button" class="right" onclick="check(true,'q10')"> 
+				<div>
+					<img src="assets/pics/isreal_flag.jpg"/>
+					<p class="text">Isreal</p>
+				</div>
+			</button></td>
+	  </tr>
+	  <tr>
+		  <td><button type="button" class="wrong" onclick="check(false,'q10')"> 
+				<div>
+					<img src="assets/pics/china_flag.jpg"/>
+					<p class="text">China</p>
+				</div>
+			  </button></td>
+		  <td><button type="button" class="wrong" onclick="check(false,'q10')"> 
+				<div>
+					<img src="assets/pics/russia_flag.jpg"/>
+					<p class="text">Russia</p>
+				</div>
+			</button></td>
+	  </tr>
+  </table>
+  <form>
+</div>
+<button type="button" class="final" onclick="final()">Submit</button>
+</h2>
+</div>
+
+<!--javascript-->
+<script>
+console.log("Howdy");
+
+var total = 0;
+
+function check(answer, id){
+	
+	if(answer){
+		total++;
+	}
+
+	console.log(total);
+
+	var c = document.getElementById(id).getElementsByTagName("BUTTON");
+	for(var i=0; i<c.length; i++){
+		c[i].setAttribute("disabled","");
+		if(c[i].className == 'wrong'){
+			c[i].style.backgroundColor = "red";
+		} else {
+			c[i].style.backgroundColor = "green";
+		}
+	}
+}
+
+function final(){
+	console.log("submitted");
+	var ans = document.getElementById("verdict");
+	var upd = "";
+
+	upd += "You Scored "+total+"/10!\n";
+	
+	if(total == 10){
+		upd += "You really know your stuff! You probably spend every waking minute reading the news and watching political pundits. You're super informed so keep up the good work!";
+	}	else if(total > 7 && total < 3){
+			upd += "You're pretty informed but there's always more to learn. Try picking up a news paper every once and a while. You might learn something interesting about a place you've been or a government offical. Knowledge is power!"
+	} else {
+		upd += "Better start reading! Staying informed and up-to-date on current events is important to participating in society, both local and global. Knowing what's happening around us can help us make decisions and have greater awareness of modern issues. ";
+	}
+
+	ans.innerHTML = upd;
+}
+
+</script>
