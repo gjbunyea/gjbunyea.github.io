@@ -1,1 +1,1 @@
-Sitemap: http://gregbunyea.com/sitemap.xml
+Sitemap: https://gregbunyea.com/sitemap.xml
