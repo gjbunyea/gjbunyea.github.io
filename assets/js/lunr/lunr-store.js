@@ -1,6 +1,6 @@
 var store = [{
         "title": "Test Portfolio",
-        "excerpt":" ","categories": [],
+        "excerpt":"Here’s a little test  ","categories": [],
         "tags": [],
         "url": "https://gregbunyea.com/portfolio/test/",
         "teaser":null},{
