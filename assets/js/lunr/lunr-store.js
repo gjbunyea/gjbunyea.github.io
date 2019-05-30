@@ -1,6 +1,6 @@
 var store = [{
         "title": "METALS Capstone",
-        "excerpt":"Description As our METALS Capstone project, my team and I work with Renaissance Learning, Inc. to research and develop a dashboard enabling school districts to compare their student’s achievement to similar schools. We have spent Spring 2019 researching and ideating with district administrators across the country. This project is currently...","categories": [],
+        "excerpt":"Description As our METALS Capstone project, my team and I work with Renaissance Learning, Inc. to research and develop a dashboard enabling school districts to compare their student’s achievement to similar schools. We have spent Spring 2019 researching and ideating with district administrators across the country. This project is ongoing....","categories": [],
         "tags": [],
         "url": "https://gregbunyea.com/portfolio/01-capstone/",
         "teaser":"https://gregbunyea.com/assets/images/creative_work.jpg"},{
