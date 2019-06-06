@@ -20,10 +20,10 @@ var store = [{
         "url": "https://gregbunyea.com/portfolio/pulmonarypal/",
         "teaser":"https://gregbunyea.com/assets/images/pulmonarypal/pulmonary_match_zoom.jpg"},{
         "title": "ShamSlam",
-        "excerpt":"Description ShamSlam is a table-top mental-health game that aims to teach players best coping strategies for Impostor Syndrome. It was initially developed for Design for Educational Games, a course taught by Erik Harpstead at CMU. We were inspired to create a game about Impostor Syndrome based on our own personal...","categories": [],
+        "excerpt":"ShamSlam is a card game to teach coping strategies for Impostor Syndrome. We were inspired to create a game about Impostor Syndrome based on our own personal experiences. This project is still in development, as we prepare for submission to the Games for Change Awards 2020. Role : Researcher, Game...","categories": [],
         "tags": [],
         "url": "https://gregbunyea.com/portfolio/shamslam/",
-        "teaser":"https://gregbunyea.com/assets/images/shamslam/game_cards.jpg"},{
+        "teaser":null},{
         "title": "Zipper",
         "excerpt":"Description Zipper is an application designed to help project-based learning (PBL) instructors assess students’ skills and process growth. Zipper is the culmination of a semester-long design process, done as an academic project in Marti Louw’s Learning Media Design course as part of my METALS curriculum. The project’s initial prompt was...","categories": [],
         "tags": [],
