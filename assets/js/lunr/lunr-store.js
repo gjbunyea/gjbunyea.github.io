@@ -5,7 +5,7 @@ var store = [{
         "url": "https://gregbunyea.com/portfolio/eslcurriculum/",
         "teaser":null},{
         "title": "ShamSlam",
-        "excerpt":"ShamSlam is a card game to teach coping strategies for Impostor Syndrome. We were inspired to create a game about Impostor Syndrome based on our own personal experiences. This project is still in development, as we prepare for submission to the Games for Change Awards 2020. Role : Researcher, Game...","categories": [],
+        "excerpt":"ShamSlam is a card game to teach coping strategies for Impostor Syndrome (IS). We were inspired to create a game about IS based on our own personal experiences. This project is still in development, as we prepare for submission to the Games for Change Awards 2020. Role : Researcher, Game...","categories": [],
         "tags": [],
         "url": "https://gregbunyea.com/portfolio/shamslam/",
         "teaser":null},{

@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>ShamSlam :: Greg Bunyea</title>
-<meta name="description" content="Teaching to Cope with Impostor Syndrome through Games">
+<meta name="description" content="Learn to Cope with Impostor Syndrome through Games">
 
 
 
@@ -21,7 +21,7 @@
 <meta property="og:url" content="https://gregbunyea.com/portfolio/shamslam/">
 
 
-  <meta property="og:description" content="Teaching to Cope with Impostor Syndrome through Games">
+  <meta property="og:description" content="Learn to Cope with Impostor Syndrome through Games">
 
 
 
@@ -29,7 +29,7 @@
 
 
 
-  <meta property="article:published_time" content="2019-06-08T19:42:51+00:00">
+  <meta property="article:published_time" content="2019-06-20T14:58:34+00:00">
 
 
 
@@ -189,7 +189,7 @@
     <meta itemprop="headline" content="ShamSlam">
     
     
-    <meta itemprop="description" content="Teaching to Cope with Impostor Syndrome through Games">
+    <meta itemprop="description" content="Learn to Cope with Impostor Syndrome through Games">
     
     
     
@@ -206,13 +206,45 @@
 
       <section class="page__content" itemprop="text">
         
+        <aside class="sidebar__right sticky">
+          <nav class="toc">
+            <header>
+              <h4 class="nav__title"><i class="fas fa-file-alt"></i>
+                On this page</h4>
+            </header>
+            <ul class="toc__menu">
+  <li><a href="#how-we-made-shamslam">How We Made ShamSlam</a>
+    <ul>
+      <li><a href="#tandem-design">Tandem Design</a></li>
+      <li><a href="#goal-loop">Goal Loop</a>
+        <ul>
+          <li><a href="#lit-review">Lit Review</a></li>
+          <li><a href="#interviews">Interviews</a></li>
+          <li><a href="#synthesis">Synthesis</a></li>
+        </ul>
+      </li>
+      <li><a href="#first-alignment">First Alignment</a></li>
+      <li><a href="#game-loop">Game Loop</a>
+        <ul>
+          <li><a href="#parallel-prototyping">Parallel Prototyping</a></li>
+        </ul>
+      </li>
+      <li><a href="#second-alignment">Second Alignment</a></li>
+      <li><a href="#final-design">Final Design</a></li>
+    </ul>
+  </li>
+  <li><a href="#read-more">Read More</a></li>
+</ul>
+          </nav>
+        </aside>
+        
         
         
         
         
         
 
-        <p>ShamSlam is a card game to teach coping strategies for Impostor Syndrome. We were inspired to create a game about Impostor Syndrome based on our own personal experiences.</p>
+        <p>ShamSlam is a card game to teach coping strategies for Impostor Syndrome (IS). We were inspired to create a game about IS based on our own personal experiences.</p>
 
 <p>This project is still in development, as we prepare for submission to the Games for Change Awards 2020.</p>
 
@@ -249,6 +281,119 @@
 </figcaption>
   
 </figure>
+
+<h1 id="how-we-made-shamslam">How We Made ShamSlam</h1>
+<h2 id="tandem-design">Tandem Design</h2>
+<p>Our main development framework was the Tandem-Transformational Game Design framework. Tandem Design proposes two iterative loops–educational goals and game development–with alignment between them.</p>
+
+<figure class="">
+  <img src="/assets/images/shamslam/tandem_design.png" alt="Tandem Design Framework" />
+  
+    <figcaption>Tandem Design Framework developed at Carnegie Mellon’s OH! Lab
+</figcaption>
+  
+</figure>
+
+<p>In the Goal Loop, you do lit review, research, and synthesize findings to define what it is you’ll teach.</p>
+
+<p>In the Game Loop you develop the game, playtest, and evaluate enjoyment.</p>
+
+<p>Between the loops, you Align to ensure that your goals and game line up.</p>
+
+<h2 id="goal-loop">Goal Loop</h2>
+<h3 id="lit-review">Lit Review</h3>
+<p>Out initial lit review suggested that Cognitive Behavioral Therapy (CBT) techniques are the best way to overcome IS. CBT techniques require small habits built up over long periods of time, which sounded like a game design anti-pattern.</p>
+
+<p>Imagine a game designed to teach you how to do a Thought Record…</p>
+
+<figure class="">
+  <img src="/assets/images/shamslam/cbt_task.png" alt="" />
+  
+    <figcaption>Cognitive Restructuring Thought Record
+</figcaption>
+  
+</figure>
+
+<p>I’m sure it can be done, but we wanted to tap into something more cultural and less monotonous.</p>
+
+<h3 id="interviews">Interviews</h3>
+<p>Shifting toward a more behavioral/socio-cultural game meant we would need to uncover behavior.<br />
+We conducted internal interviews (as we all had experience with IS). We also sent a survey out to understand how, and in what contexts others felt like an impostor.</p>
+
+<p>We found that we each had different perspectives on where IS is most prominent–some felt at work, others in school, and others with family as a more cultural sense of impostor.</p>
+
+<h3 id="synthesis">Synthesis</h3>
+<p>Our interviews told us that people feel like imposters in highly different scenarios, though our lit review told us there are only a few ways to cope deemed “healthy” (Asking for support from a friend for example).</p>
+
+<p>We looked at all of the information we had collected and broke them down along different goal dimensions. We felt that there was good substance for cognitive and dispositional goals, but not as much on skills.</p>
+
+<p><strong>Cognitive Goals</strong></p>
+<ul>
+  <li>Increase awareness of IS symptoms</li>
+  <li>Differentiate between good / bad coping mechanisms</li>
+  <li>Identify situations to apply coping mechanisms</li>
+</ul>
+
+<p><strong>Dispositional Goals</strong></p>
+<ul>
+  <li>See that IS can be overcome</li>
+  <li>See that IS is common and normal</li>
+  <li>Gain efficacy to use good coping mechanisms in their life</li>
+</ul>
+
+<h2 id="first-alignment">First Alignment</h2>
+<p>As we prepared to move into game development, we needed a bridge between goals and game mechanics. To do so, we used the MDA Framework which breaks down games into Mechanics (pieces), Dynamics (run-time behavior), and Aesthetics (felt emotions). As game designers we can influence Mechanics, but players feel Aesthetics.</p>
+
+<p>We then turned our Learning Goals into congruent Aesthetic Goals so that we could design a game accordingly.</p>
+
+<p>Aesthetic Goals:</p>
+<ul>
+  <li><strong>Sensation</strong>
+    <ul>
+      <li>Recognizing I.S. in yourself and catching yourself in the act of a bad coping mechanism is a sensory experience. Paying attention to how you feel a large part of catching yourself in the act.</li>
+    </ul>
+  </li>
+  <li><strong>Empathy</strong>
+    <ul>
+      <li>I.S. feels bad and its prevalence makes empathy important for realizing that you’re not alone or that those around you could have I.S.</li>
+    </ul>
+  </li>
+  <li><strong>Trust</strong>
+    <ul>
+      <li>A main coping mechanism is confiding in others and valuing others’ opinions of your work</li>
+    </ul>
+  </li>
+  <li><strong>Expression</strong>
+    <ul>
+      <li>Finding your voice and expressing ideas as a way to finding your unique identity</li>
+    </ul>
+  </li>
+</ul>
+
+<p>As we developed our game, we were looking to see how we can make players feel these emotions while teaching our learning goals.</p>
+
+<h2 id="game-loop">Game Loop</h2>
+<h3 id="parallel-prototyping">Parallel Prototyping</h3>
+<p>It was time to start thinking about form. Multiplayer or Single player? Digital or Analog? There were a lot of questions and we answered them by prototyping and testing.</p>
+
+<ul>
+  <li>Play-testing</li>
+  <li>Revisions</li>
+</ul>
+
+<h2 id="second-alignment">Second Alignment</h2>
+<ul>
+  <li>Goal Changes</li>
+  <li>Aesthetic Changes</li>
+</ul>
+
+<h2 id="final-design">Final Design</h2>
+<ul>
+  <li>ShamSlam</li>
+</ul>
+
+<h1 id="read-more">Read More</h1>
+<p>Tandem Design: <a href="http://tandemdesign.strikingly.com/">http://tandemdesign.strikingly.com/</a></p>
 
         
 
