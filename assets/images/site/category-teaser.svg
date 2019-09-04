@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.6, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 350 150" style="enable-background:new 0 0 350 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#1667E6;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:6;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+</style>
+<g id="Layer_1">
+	<g>
+		<rect class="st0" width="350" height="150"/>
+	</g>
+</g>
+<g id="Layer_2">
+	<g>
+		<line class="st1" x1="148.85" y1="44.89" x2="218.96" y2="44.89"/>
+		<line class="st1" x1="148.85" y1="85.04" x2="218.96" y2="85.04"/>
+		<line class="st1" x1="148.85" y1="105.11" x2="218.96" y2="105.11"/>
+		<line class="st1" x1="148.85" y1="64.96" x2="218.96" y2="64.96"/>
+		<circle class="st2" cx="136.85" cy="44.89" r="5.82"/>
+		<circle class="st2" cx="136.85" cy="64.96" r="5.82"/>
+		<circle class="st2" cx="136.85" cy="85.04" r="5.82"/>
+		<circle class="st2" cx="136.85" cy="105.11" r="5.82"/>
+	</g>
+</g>
+</svg>

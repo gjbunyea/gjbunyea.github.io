@@ -23,7 +23,7 @@ var store = [{
         "excerpt":"Aiming to improve instruction in Carnegie Mellon’s User-Centered Research and Evaluation course (UCRE), we designed a module targeting interview preparation – an important, but missing piece of UCRE’s interviewing module. This skills gap became evident to us when an SME said, “Everyone agrees preparation for an interview is important. I’m...","categories": ["Learning Design"],
         "tags": ["E-Learning"],
         "url": "https://gregbunyea.com/portfolio/interviewing-module/",
-        "teaser":null},{
+        "teaser":"https://gregbunyea.com/assets/images/interviewing-module/interview-teaser.svg"},{
         "title": "Learning Science Media Master List",
         "excerpt":"Looking to stay up-to-date in learning research, beef up your teaching, design better ed-tech, or learn how to learn better? Look no further. This list has some of the best books, podcasts, academic journals and more on the subject of learning science. Websites EdSurge.com Teachthought.com Carnegie Mellon’s Eberly Center CIRCL(Cyberlearning...","categories": [],
         "tags": [],
